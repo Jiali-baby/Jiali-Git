@@ -1,0 +1,48 @@
+#count {
+    background-color: #F0F0F0;
+}
+
+.sousuo {
+    width: 1190px;
+    height: 615px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sousuo .h3 {
+    width: 1110px;
+    height: 70px;
+    line-height: 70px;
+    margin-left: 40px;
+    border-bottom: 1px solid #c1c1c1;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.sousuo .bottom {
+    width: 1190px;
+    height: 383px;
+    margin-top: 40px;
+    /* border: solid 1px black; */
+    margin-left: 10px;
+}
+
+.sousuo .bottom .li {
+    width: 266px;
+    height: 353px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* border: black 1px solid; */
+}
+
+.sousuo .li:hover {
+    border-bottom: tomato 5px solid;
+}
+
+.sousuo .li img {
+    width: 266px;
+    height: 300px;
+}

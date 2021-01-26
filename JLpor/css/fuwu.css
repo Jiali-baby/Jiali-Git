@@ -1,0 +1,241 @@
+    #count {
+        overflow: hidden;
+        background-color: #F0F0F0;
+        position: relative;
+    }
+    /* ......................上边.............. */
+    
+    .momo {
+        width: 1197px;
+        /* height: 400px; */
+        /* overflow: hidden; */
+        margin-left: 125px;
+        margin-top: 50px;
+        background-color: cadetblue;
+    }
+    
+    .momo .shangbian {
+        width: 1200px;
+        height: 150px;
+        /* border: 1px solid black; */
+        /* margin-left: 10px; */
+    }
+    
+    .momo .shangbian li {
+        width: 170px;
+        height: 150px;
+        border-top: solid #dddddd 1px;
+        border-right: solid #dddddd 1px;
+        background-color: #fff;
+        float: left;
+    }
+    
+    .momo .shangbian .iconfont {
+        font-size: 60px;
+        margin-left: 52px;
+    }
+    
+    .momo .shangbian span {
+        display: inline-block;
+        margin-top: 20px;
+    }
+    
+    .momo .shangbian p {
+        text-align: center;
+        margin-top: 10px;
+    }
+    /* ......................下边.............. */
+    
+    .momo .xiabian {
+        width: 1200px;
+        height: 150px;
+        overflow: hidden;
+    }
+    
+    .momo .xiabian li {
+        width: 170px;
+        height: 150px;
+        border-top: solid #dddddd 1px;
+        border-right: solid #dddddd 1px;
+        background-color: #fff;
+        float: left;
+        cursor: pointer;
+    }
+    
+    .momo .xiabian .iconfont {
+        font-size: 60px;
+        margin-left: 52px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    
+    .momo .xiabian p {
+        text-align: center;
+        margin-top: 10px;
+    }
+    /* ................隐藏部分............... */
+    
+    .momo section {
+        width: 1197px;
+        height: 50px;
+        background-color: #fff;
+        display: none;
+        padding: 15px 10px;
+        box-sizing: border-box;
+    }
+    
+    .momo .show {
+        display: block;
+    }
+    
+    .momo .m1 {
+        background-color: honeydew;
+    }
+    /* ...................常见问题............ */
+    
+    .ally {
+        width: 1190px;
+        height: 663px;
+        background-color: #fff;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        /* top: 500px;
+        position: absolute; */
+    }
+    /* ..................左边常见 .................*/
+    
+    .ally .changjian {
+        width: 852px;
+        height: 663px;
+        /* border: 1px solid black; */
+        position: relative;
+        float: left;
+    }
+    
+    .ally .changjian .wenti {
+        height: 34px;
+        font-weight: normal;
+        line-height: 34px;
+        font-size: 20px;
+        position: absolute;
+        top: 30px;
+        left: 730px;
+    }
+    
+    .changjian .nei dt {
+        float: left;
+        height: 35px;
+        /* border: 1px solid black; */
+        line-height: 35px;
+        text-align: center;
+        padding: 0 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    
+    .changjian .nei .hover {
+        margin-left: 10px;
+        border-bottom: solid 2px #EF4222;
+        color: #000;
+    }
+    
+    .changjian .nei dd {
+        width: 852px;
+        height: 42px;
+        border-bottom: 1px solid #f1f1f1;
+        margin-top: 10px;
+        line-height: 42px;
+        float: left;
+        margin-left: 15px;
+        padding-left: 0;
+    }
+    
+    .nei section {
+        width: 852px;
+        height: 50px;
+        background-color: #fff;
+        display: none;
+        padding: 15px 10px;
+        box-sizing: border-box;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    
+    .nei .nancy {
+        display: block;
+    }
+    /* ...................右边..................... */
+    
+    .ally .youbian {
+        width: 330px;
+        height: 650px;
+        border-left: 1px solid #e1e1e1;
+        float: left;
+        margin-top: 10px;
+    }
+    
+    .ally .youbian h2 {
+        height: 34px;
+        font-weight: normal;
+        line-height: 34px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .youbian .tu {
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    
+    .youbian .tu .tua {
+        /* border: solid 1px black; */
+        width: 230px;
+        margin-left: 60px;
+        margin-top: 5px;
+    }
+    
+    .youbian .tu .iconfont {
+        font-size: 60px;
+        float: left;
+        color: #a1a1a1;
+        width: 65px;
+        height: 65px;
+        /* border: black 1px solid; */
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    
+    .youbian .tu a {
+        color: red;
+        font-size: 14px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    
+    .youbian .tu .gai {
+        font-size: 14px;
+        padding-left: 15px;
+        margin-top: 8px;
+    }
+    
+    .youbian .shang {
+        height: 240px;
+        width: 300px;
+        border-bottom: 1px solid #e1e1e1;
+        margin-left: 15px;
+    }
+    /* ................下边............ */
+    
+    .youbian .xia {
+        width: 300px;
+        margin-left: 15px;
+    }
+    
+    .youbian .xia p {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }

@@ -1,0 +1,350 @@
+#count {
+    /* position: relative; */
+    overflow: hidden;
+    background-color: #F0F0F0;
+}
+
+
+/* 轮播图 */
+
+#lunbo {
+    /* margin-top: 20px; */
+    height: 550px;
+    background-color: #fff;
+}
+
+#count .mm {
+    width: 9999999999999999999999px;
+    position: relative;
+    /* margin-top: 20px; */
+    background-color: #fff;
+}
+
+#count .mm img {
+    position: relative;
+    /* width: 100%; */
+}
+
+.mm li {
+    float: left;
+}
+
+.mm li .show {
+    display: block;
+}
+
+#left,
+#right {
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    opacity: .7;
+    transition: all .5s;
+}
+
+#left:hover,
+#right:hover {
+    opacity: 1;
+    transform: scale(1.1)
+}
+
+#left {
+    left: 60px;
+}
+
+#right {
+    right: 60px;
+}
+
+#mona {
+    position: absolute;
+    bottom: 163px;
+    /* top: 15px; */
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#mona li {
+    float: left;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    margin-right: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: block;
+}
+
+#mona .focus {
+    background-color: orange;
+}
+
+
+/* ...............明星区.................... */
+
+#star {
+    /* margin-top: 40px; */
+    height: 400px;
+    background-color: #fff;
+    position: relative;
+}
+
+#star .h1 {
+    text-align: center;
+    line-height: 110px;
+    position: absolute;
+    left: 46%;
+    font-size: 30px;
+}
+
+#star ul {
+    height: 300px;
+    width: 1196px;
+    margin-left: 120px;
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 110px;
+    /* border: solid 2px black; */
+}
+
+#star li {
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+    top: 120px;
+}
+
+
+/* .........................手机热卖 ..............*/
+
+.remai {
+    width: 1196px;
+    margin: 0 auto;
+    /* border: 1px solid pink; */
+    height: 1300px;
+}
+
+.remai .rm {
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 10px;
+}
+
+.remai .more {
+    margin-left: 1100px;
+    margin-bottom: 10px;
+}
+
+.remai .tr img {
+    width: 280px;
+    height: 280px;
+    box-shadow: gainsboro;
+}
+
+
+/* ...............左大图 .............*/
+
+.remai .tl {
+    float: left;
+    margin-right: 5px;
+    /* transform: scale(1.1); */
+    transition: all .8s;
+    overflow: hidden;
+}
+
+.remai .tl img {
+    width: 290px;
+    height: 785px;
+    margin-left: 10px;
+}
+
+.remai .tl img:hover {
+    transform: scale(1.02);
+    transform: translateY(3px);
+}
+
+
+/* ............右小图............. */
+
+.remai .tr li {
+    float: left;
+}
+
+.remai .pictur {
+    /* background-color: cadetblue; */
+    width: 1196px;
+    height: 790px;
+}
+
+.remai .tr li {
+    /* border: black 1px solid; */
+    width: 290px;
+    height: 390px;
+    /* margin-left: 5px; */
+    background-color: #fff;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.tr .dibu {
+    text-align: center;
+}
+
+.tr .dibu .title {
+    color: #0f0e0e;
+    font-size: 16px;
+}
+
+.tr .dibu .jieshao {
+    color: #9E9E9E;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.tr .dibu .price {
+    color: #fe6a00;
+    font-size: 24px;
+    padding-top: 12px;
+}
+
+
+/* ...............底部Li ...............*/
+
+.remai .rmx li {
+    width: 290px;
+    height: 390px;
+    background-color: #fff;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.remai .rmx li .zuotu {
+    margin-left: 10px;
+}
+
+.remai .rmx img {
+    width: 280px;
+    height: 280px;
+    box-shadow: gainsboro;
+}
+
+.rmx .dibu {
+    text-align: center;
+}
+
+.rmx.dibu .title {
+    color: #0f0e0e;
+    font-size: 16px;
+}
+
+.rmx .dibu .jieshao {
+    color: #9E9E9E;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.rmx .dibu .price {
+    color: #fe6a00;
+    font-size: 24px;
+    padding-top: 12px;
+}
+
+
+/* .............精美配件 .................*/
+
+.peijian {
+    width: 1196px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    height: 1000px;
+}
+
+.peijian .rm {
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 10px;
+}
+
+.peijian .more {
+    margin-left: 1100px;
+    margin-bottom: 10px;
+}
+
+.peijian .tupian li {
+    width: 386px;
+    height: 413px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.peijian .tupian li img {
+    width: 386px;
+    height: 307px;
+}
+
+.peijian .dibu {
+    text-align: center;
+}
+
+.peijian .dibu .title {
+    color: #0f0e0e;
+    font-size: 16px;
+}
+
+.peijian .dibu .jieshao {
+    color: #9E9E9E;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+.peijian .dibu .price {
+    color: #fe6a00;
+    font-size: 24px;
+    padding-top: 12px;
+}
+
+.peijian .tupian li:hover {
+    transform: scale(1.02);
+}
+
+
+/* ..............品牌动态............ */
+
+#pin {
+    /* margin-top: 40px; */
+    height: 530px;
+    background-color: #fff;
+    position: relative;
+}
+
+#pin .h1 {
+    text-align: center;
+    line-height: 110px;
+    position: absolute;
+    left: 46%;
+    font-size: 30px;
+}
+
+#pin ul {
+    height: 300px;
+    width: 1196px;
+    margin-left: 120px;
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 110px;
+    /* border: solid 2px black; */
+}
+
+#pin li {
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+    top: 120px;
+}

@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* ........................header................... */
+
+#header {
+    height: 134px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    border-bottom: 1px solid #DADCE0;
+}
+
+#heaRight {
+    float: right;
+    margin-right: 20px;
+    width: 420px;
+    height: 33px;
+    /* border: 1px solid black; */
+}
+
+#heaRight ul {
+    display: flex;
+    justify-content: right;
+    /* position: fixed; */
+}
+
+#heaRight li {
+    float: left;
+    width: 93px;
+    border-right: 1px solid #DADCE0;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #7D7D7D;
+    cursor: pointer;
+}
+
+#heaRight li:hover {
+    color: red;
+}
+
+#head img {
+    width: 324px;
+    height: 68px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 30px;
+    position: fixed;
+}
+
+#head .header-center {
+    width: 60px;
+    border: gainsboro 1px solid;
+}
+
+#head .header-center .ipt {
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+
+#head .daohang {
+    float: left;
+    width: 600px;
+    /* border: 1px solid black; */
+    top: 70px;
+    left: 420px;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+}
+
+#head .daohang li {
+    width: 100px;
+    float: left;
+    font-size: 20px;
+}
+
+#head .ipt {
+    border: none;
+    outline: none;
+}
+
+#head .daohang li:hover {
+    color: #ED6D00;
+}
+
+#head .header-center {
+    width: 200px;
+    background-color: #fff;
+    float: left;
+    left: 1100px;
+    top: 70px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+
+/* .....................count....................... */
+
+#count {
+    /* height: 800px; */
+    /* padding-top: 134px; */
+    margin-top: 134px;
+    background-color: #F0F0F0;
+    flex: 1;
+    overflow-y: auto;
+}
+
+
+/* ........................aside................... */
+
+aside {
+    width: 50px;
+    height: 180px;
+    position: fixed;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    z-index: 999;
+    border: 1px solid #DADCE0;
+}
+
+aside li {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: #DADCE0;
+    background-color: white;
+    border-bottom: 1px solid #DADCE0;
+}
+
+aside li:hover {
+    color: red;
+}
+
+aside .iconfont {
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+}
+
+aside p {
+    font-size: 10px;
+    color: black;
+}
+
+
+/* ........................foot................... */
+
+#foot {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+#foot .icon {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+
+#foot .center {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+
+#foot .footer {
+    display: flex;
+    position: absolute;
+    top: 60px;
+}
+
+#foot .icon .iconfont {
+    font-size: 54px;
+    float: left;
+    margin-top: 16px;
+    color: red;
+}
+
+#foot .icon li {
+    width: 200px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#foot p {
+    font-size: 14px;
+    display: inline-block;
+    color: #7D7D7D;
+}
+
+#foot p:hover {
+    color: red;
+}
+
+#foot .icon {
+    height: 100px;
+    border-bottom: 1px solid #7D7D7D;
+    margin-left: 30px;
+}
+
+#foot .center ul {
+    float: left;
+    /* border: 1px solid black; */
+    width: 230px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#foot .center li {
+    color: #7D7D7D;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#foot .center li:hover {
+    color: red;
+}
+
+#foot .footer {
+    background-color: black;
+    height: 200px;
+    margin-top: 240px;
+    color: white;
+}
+
+#foot .ff {
+    /* width: 230px; */
+    height: 30px;
+    margin-left: 90px;
+    /* margin-top: 20px; */
+}
+
+.footer .ff li {
+    border-right: #7D7D7D 1px solid;
+    width: 85px;
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #7D7D7D;
+}
+
+.footer .oo {
+    /* border: 1px solid white; */
+    width: 1200px;
+    height: 50px;
+    display: inline-block;
+}
+
+.footer .oo li {
+    width: 185px;
+    float: left;
+    margin-left: 100px;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #7D7D7D;
+    /* border: 1px solid white; */
+}
+
+.footer .oo img {
+    width: 150px;
+    height: 50px;
+}
