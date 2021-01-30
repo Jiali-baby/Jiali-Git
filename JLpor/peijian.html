@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/newbee.css">
     <link rel="stylesheet" href="download/font_2330402_8k2ro9zamr9/iconfont.css">
     <link rel="stylesheet" href="css/peijian.css">
-    <script src="js/newbee.js"></script>
+    <!-- <script src="js/newbee.js"></script> -->
     <script src="js/mynode.js"></script>
     <title>金立配件页面</title>
     <style>
@@ -47,9 +47,13 @@
             <img src="image/logo.jpg" alt="">
             <ul class="daohang">
                 <li>首页</li>
-                <li>手机</li>
+                <li>
+                    <a href="shouji.html"> 手机</a>
+                </li>
                 <li style="color: tomato;">配件</li>
-                <li>服务 </li>
+                <li>
+                    <a href="fuwu.html">服务</a>
+                </li>
                 <li>下载</li>
                 <li>amigoOS</li>
             </ul>
@@ -275,30 +279,8 @@
 <script>
 
 
-// $('#sousuo').onclick=function(){
-//     document.onkeydown=function(event){
-//         if(event.keyCode===13){
-//          let text=document.getElementById(`sousuo`);
-//          let sou=text.value;
-//          console.log(sou);
-
-//          let http=new XMLHttpRequest();
-//          http.open('get',`http://10.35.161.5:81/sousuo?sou=${sou}`);
-//          http.send();
-//          http.onreadystatechange=function(){
-//              if(http.readyState===4){
-//                 // location.href = "http://10.35.161.5:81/JLpor/sousuo.html ";
-//              }else{
-//                  alert("亲亲，暂时无法查询嗷~ ")
-//              }
-//          }
-
-//         }
-//     }
-// }
-
 $.ajax({
-			url:"http://10.35.161.5:8081/peijian ",
+			url:"http://192.168.101.8:8081/peijian ",
 			success:function(data){
                 // console.log(data)
                 let list = data;
@@ -313,17 +295,6 @@ $.ajax({
 					newli.find('.price').html('¥'+item.price)
 					newli.find(`.item`).html(item.jieshao)
                     newli.find(`.pic`).attr(`src`,item.pic)
-
-
-
-					// newli.click(function(){
-					// 	let id = item.id;
-					// 	$.ajax({
-					// 		url:`http://10.35.161.5:8081/click?id=${id}`,
-					// 		success:function(data){
-					// 			}
-					// 	})
-					// })
                 })
 
 			}

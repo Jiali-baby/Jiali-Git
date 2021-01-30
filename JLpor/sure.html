@@ -7,10 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/newbee.css">
     <link rel="stylesheet" href="download/font_2330402_8k2ro9zamr9/iconfont.css">
-    <link rel="stylesheet" href="css/sousuo.css">
-    <script src="js/mynode.js"></script>
-    <script src="js/newbee.js"></script>
-    <title>金立手机搜索结果页面</title>
+    <link rel="stylesheet" href="css/sure.css">
+    <title>金立手机顶部尾部</title>
     <style>
         a {
             text-decoration: none;
@@ -62,16 +60,9 @@
     </div>
     <!-- ---------------------------------内容部分------------------------ -->
     <div id="count">
-        <div class="sousuo" id="templay">
-            <h3 class="h3">搜索结果</h3>
-            <ul class="bottom" style="border: none;">
-                <li class="li" style="border-top: none;border-left: none;border-right: none;">
-                    <a href="xiangqing.html">
-                        <img src="" alt="" class="pic">
-                    </a>
-                    <p class="name" style="text-align: center;font-size: 20px;margin-top: 10px;width: 260px;"></p>
-                </li>
-            </ul>
+        <div class="sure">
+            <p class="p1">√</p>
+            <p class="p2">订单确认成功</p>
         </div>
     </div>
     <!-- -----------------------------侧边栏-------------------------- -->
@@ -177,28 +168,3 @@
 </body>
 
 </html>
-<script src="js/jquery.min.js "></script>
-<script>
-
-$.ajax({
-    url:`http://192.168.101.8:8081/selet`,
-    success:function(data){
-        let list=data[0];
-        console.log(list)
-        console.log(list.pic)
-            $('.li').attr('id',list.id);
-            $('.li').find('.name').html(list.phonename);
-            $('.li').find('.pic').attr('src',list.pic);
-
-
-					// newli.click(function(){
-					// 	let id = item.id;
-					// 	$.ajax({
-					// 		url:`http://10.35.161.5:8081/sousuo?id=${id}`,
-					// 		success:function(data){
-					// 			}
-					// 	})
-					// })
-    }
-})
-</script>

@@ -24,7 +24,7 @@ var sql = mysql.createConnection({
 
 sql.connect();
 
-// 注册接口
+// 1.注册接口
 express.get("/zhuce", (request, response) => {
     let username = request.query.username;
     let password = request.query.password;
@@ -42,7 +42,7 @@ express.get("/zhuce", (request, response) => {
     })
 })
 
-// 登录接口
+// 2.登录接口
 
 express.get("/denglu", (request, response) => {
     let username = request.query.username;
@@ -62,7 +62,7 @@ express.get("/denglu", (request, response) => {
 })
 
 
-//列表页数据1
+//3.列表页数据1
 express.get("/libiaolist", function(request, response) {
     let name = request.query.phonename;
     sql.query('SELECT * FROM customer', function(error, data) {
@@ -77,7 +77,7 @@ express.get("/libiaolist", function(request, response) {
 })
 
 
-// 列表数据2
+// 4.列表数据2
 express.get("/peijian", function(request, response) {
     let name = request.query.pjname;
     sql.query('SELECT * FROM peijian', function(error, data) {
@@ -113,7 +113,7 @@ express.get("/peijian", function(request, response) {
 
 // })
 
-// 搜索页面
+// 5.搜索页面
 express.get("/sousuo", function(request, response) {
     sou = request.query.sou
     express.get("/selet", function(request, response) {
@@ -126,6 +126,49 @@ express.get("/sousuo", function(request, response) {
             response.send(JSON.stringify(data));
         })
     })
+})
+
+// 6.详情页1
+express.get("/xiangqing", function(request, response) {
+    // let name = request.query.phonename;
+    sql.query('SELECT * FROM xiangqing', function(error, data) {
+        if (error) {
+            console.log(error);
+            response.send("error");
+        } else {
+            response.send(JSON.stringify(data));
+        }
+    })
+
+})
+
+
+// 7.详情页2
+express.get("/xiangqingtk", function(request, response) {
+    // let name = request.query.phonename;
+    sql.query('SELECT * FROM xqtk', function(error, data) {
+        if (error) {
+            console.log(error);
+            response.send("error");
+        } else {
+            response.send(JSON.stringify(data));
+        }
+    })
+
+})
+
+
+express.get("/shopping", function(request, response) {
+    // let name = request.query.phonename;
+    sql.query('SELECT * FROM xqtk', function(error, data) {
+        if (error) {
+            console.log(error);
+            response.send("error");
+        } else {
+            response.send(JSON.stringify(data));
+        }
+    })
+
 })
 
 

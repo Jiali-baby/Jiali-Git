@@ -1,0 +1,176 @@
+.tou {
+    height: 50px;
+    width: 100%;
+    /* border: black 1px solid; */
+    margin-top: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.tou h2 {
+    color: tomato;
+    position: absolute;
+    left: 80px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.tou .goumai {
+    float: right;
+    width: 108px;
+    height: 40px;
+    background-color: tomato;
+    color: white;
+    line-height: 40px;
+    position: absolute;
+    right: 45px;
+    text-indent: 20px;
+    top: 5px;
+    border-radius: 5px;
+}
+
+.tou .ul {
+    width: 270px;
+    height: 43px;
+    float: left;
+    position: absolute;
+    left: 870px;
+    margin-top: 5px;
+}
+
+.tou .ul li {
+    width: 88px;
+    height: 43px;
+    border: 1px solid #e1e1e1;
+    float: left;
+    line-height: 43px;
+    text-align: center;
+    cursor: pointer;
+    /* background-color: blueviolet; */
+}
+
+.tou .ul .first {
+    color: tomato;
+    background-color: #fff;
+    border-top: tomato 2px solid;
+}
+
+.tou .price {
+    color: tomato;
+    font-size: 40px;
+    margin-left: 1150px;
+}
+
+.show .su .lili {
+    display: none;
+    overflow: hidden;
+}
+
+.show .su img {
+    width: 100%;
+}
+
+.show {
+    display: block;
+}
+
+section {
+    background-color: #fff;
+}
+
+section .two h1 {
+    width: 1000px;
+    height: 55px;
+    line-height: 55px;
+    /* border-bottom: 1px solid #d1d1d1; */
+    margin-top: 15px;
+    margin-left: 240px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.two .jb {
+    width: 264px;
+    height: 280px;
+    margin-left: 240px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+
+.two .jb li {
+    float: left;
+    width: 130px;
+    height: 48px;
+    /* border: black 1px solid; */
+    line-height: 48px;
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+.two .jb .yi {
+    font-size: 18px;
+    line-height: 50px;
+    text-indent: 10px;
+}
+
+section {
+    background-color: #fff;
+    display: none;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.nei .show {
+    display: block;
+}
+
+.nei .san {
+    width: 980px;
+    height: 676px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+.nei .san .dt {
+    width: 501px;
+    height: 501px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 30px;
+}
+
+.nei .san .dt img {
+    width: 500px;
+    height: 500px;
+}
+
+.nei .san .ull {
+    width: 780px;
+    height: 56px;
+    /* background-color: cadetblue; */
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.nei .san .ull li {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    cursor: pointer;
+}
+
+.nei .san .ull li img {
+    width: 50px;
+    height: 50px;
+}
+
+#ximg {
+    width: 50px;
+    height: 50px;
+    float: left;
+}

@@ -1,0 +1,53 @@
+.gou {
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.gou h2 {
+    margin-left: 25px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.gou .pp {
+    font-size: 18px;
+    line-height: 60px;
+    text-indent: 20px;
+    display: inline-block;
+}
+
+.gou select {
+    margin-left: 10px;
+}
+
+.gou ul {
+    width: 300px;
+    height: 150px;
+    /* border: black 1px solid; */
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.gou ul li {
+    width: 147px;
+    height: 47px;
+    /* border: solid 1px black; */
+    float: left;
+    font-size: 19px;
+    text-align: center;
+    line-height: 47px;
+}
+
+.gou .sure {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin: 50px auto;
+}

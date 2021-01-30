@@ -7,14 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/newbee.css">
     <link rel="stylesheet" href="download/font_2330402_8k2ro9zamr9/iconfont.css">
-    <link rel="stylesheet" href="css/sousuo.css">
-    <script src="js/mynode.js"></script>
+    <link rel="stylesheet" href="css/gou.css">
     <script src="js/newbee.js"></script>
-    <title>金立手机搜索结果页面</title>
+    <script src="js/citys.js"></script>
+    <!-- <script src="js/jquery.min.js"></script> -->
+    <title>购买成功提醒</title>
     <style>
         a {
             text-decoration: none;
-            color: #7D7D7D;
+            color: #fff;
         }
         
         a:hover {
@@ -62,16 +63,33 @@
     </div>
     <!-- ---------------------------------内容部分------------------------ -->
     <div id="count">
-        <div class="sousuo" id="templay">
-            <h3 class="h3">搜索结果</h3>
-            <ul class="bottom" style="border: none;">
-                <li class="li" style="border-top: none;border-left: none;border-right: none;">
-                    <a href="xiangqing.html">
-                        <img src="" alt="" class="pic">
-                    </a>
-                    <p class="name" style="text-align: center;font-size: 20px;margin-top: 10px;width: 260px;"></p>
-                </li>
-            </ul>
+        <div class="gou">
+            <h2>订单确认</h2>
+            <hr>
+            <div class="center">
+                <p class="pp"> 收货地址：</p>
+                <select name="" id="province">
+                    </select>
+                <select name="" id="city">
+                    </select>
+                <select name="" id="area">
+                    </select>
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li>手机型号：</li>
+                    <li>金立S11</li>
+                    <li>套餐选择：</li>
+                    <li>官方标配</li>
+                    <li>实付金额：</li>
+                    <li>1899</li>
+                </ul>
+            </div>
+            <div class="sure">
+                <p>
+                    <a href="sure.html">信息确认</a>
+                </p>
+            </div>
         </div>
     </div>
     <!-- -----------------------------侧边栏-------------------------- -->
@@ -177,28 +195,45 @@
 </body>
 
 </html>
-<script src="js/jquery.min.js "></script>
 <script>
-
-$.ajax({
-    url:`http://192.168.101.8:8081/selet`,
-    success:function(data){
-        let list=data[0];
-        console.log(list)
-        console.log(list.pic)
-            $('.li').attr('id',list.id);
-            $('.li').find('.name').html(list.phonename);
-            $('.li').find('.pic').attr('src',list.pic);
-
-
-					// newli.click(function(){
-					// 	let id = item.id;
-					// 	$.ajax({
-					// 		url:`http://10.35.161.5:8081/sousuo?id=${id}`,
-					// 		success:function(data){
-					// 			}
-					// 	})
-					// })
-    }
-})
-</script>
+        let province = my(`#province`);
+        let city = my(`#city`);
+        let area = my(`#area`);
+        citys.forEach(item => {
+                let option = document.createElement(`option`);
+                option.innerHTML = item.provinceName;
+                province.appendChild(option)
+            })
+            // 更新城市数据
+        function updateCity(index) {
+            var index = index || 0;
+            city.innerHTML = " ";
+            citys[index].mallCityList.forEach(item => {
+                let option = document.createElement(`option`);
+                option.innerHTML = item.cityName;
+                city.appendChild(option)
+            })
+        }
+        // 更新区数据
+        function updateArea(provinceIndex, cityIndex) {
+            area.innerHTML = " ";
+            citys[provinceIndex].mallCityList[cityIndex].mallAreaList.forEach(item => {
+                let option = document.createElement(`option`);
+                option.innerHTML = item.areaName;
+                area.appendChild(option)
+            })
+        }
+        updateCity(0)
+        updateArea(0, 0)
+            // onchange事件当值发生改变的时候触发的事件
+            // 只属于文本框，密码框，文本域与下拉选择菜单
+            // selectedIndex属性：下拉选择菜单的Node节点独有的属性
+            // 代表当前选择的选择项相对于其他选择项所处的下标
+        province.onchange = function() {
+            updateCity(this.selectedIndex)
+            updateArea(this.selectedIndex, city.selectedIndex)
+        }
+        city.onchange = function() {
+            updateArea(province.selectedIndex, this.selectedIndex)
+        }
+    </script>

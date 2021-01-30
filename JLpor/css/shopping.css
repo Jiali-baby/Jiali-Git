@@ -1,0 +1,163 @@
+.my {
+    width: 1002px;
+    height: 610px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.my .left {
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    /* border: 1px solid black; */
+}
+
+.my .left img {
+    width: 499px;
+    height: 499px;
+    margin-top: 5px;
+}
+
+.my .right {
+    width: 500px;
+    height: 500px;
+    /* border: green 1px solid; */
+    float: left;
+    margin-top: 50px;
+}
+
+.my .right h2 {
+    margin-left: 20px;
+}
+
+.my .right .kuang {
+    width: 190px;
+    height: 40px;
+    font-size: 22px;
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.my .right .kuang p {
+    margin-top: 5px;
+}
+
+.my .right .kuang .pp {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.my .right h3 {
+    font-weight: normal;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.right .color {
+    width: 340px;
+    height: 40px;
+    /* background-color: #fff; */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.right .color li {
+    width: 100px;
+    height: 40px;
+    border: solid 1px black;
+    float: left;
+    margin-left: 10px;
+}
+
+.right .color li:hover {
+    border: solid 1px red;
+}
+
+.right .color li .i1 {
+    width: 18px;
+    height: 18px;
+    background-color: #D5CEAA;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.right .color li .i2 {
+    width: 18px;
+    height: 18px;
+    background-color: blue;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.right .color li .i3 {
+    width: 18px;
+    height: 18px;
+    background-color: pink;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.right .color li .p {
+    margin-top: 7px;
+    text-indent: 10px;
+    font-size: 18px;
+}
+
+.right .number {
+    width: 350px;
+    height: 40px;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+}
+
+.right .number .pa {
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.right .number button {
+    width: 15px;
+    height: 15px;
+}
+
+.right .number span {
+    width: 30px;
+    height: 30px;
+    border: black 1px solid;
+}
+
+.right .number .gou {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.right .number .pirce {
+    display: inline-block;
+    color: tomato;
+    font-size: 28px;
+}
+
+.right .ms {
+    width: 150px;
+    height: 40px;
+    background-color: tomato;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 89px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}

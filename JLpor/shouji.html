@@ -48,8 +48,12 @@
             <ul class="daohang">
                 <li>首页</li>
                 <li style="color: tomato;">手机</li>
-                <li>配件</li>
-                <li>服务 </li>
+                <li>
+                    <a href="peijian.html">配件</a>
+                </li>
+                <li>
+                    <a href="fuwu.html">服务</a>
+                </li>
                 <li>下载</li>
                 <li>amigoOS</li>
             </ul>
@@ -306,6 +310,7 @@ $.ajax({
                 // console.log(list)
                 list.forEach(function(item){
                     let newli = $(`#li`).clone(true);
+                    // console.log($(`#li`))
                     newli.css(`display`,`block`)
                     newli.appendTo($(`.bottom`))
                     newli.attr('id',item.id)

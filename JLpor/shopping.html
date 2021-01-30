@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/newbee.css">
     <link rel="stylesheet" href="download/font_2330402_8k2ro9zamr9/iconfont.css">
-    <link rel="stylesheet" href="css/sousuo.css">
+    <link rel="stylesheet" href="css/shopping.css">
     <script src="js/mynode.js"></script>
-    <script src="js/newbee.js"></script>
-    <title>金立手机搜索结果页面</title>
+    <script src="js/jquery.min.js"></script>
+    <title>金立手机购物车</title>
     <style>
         a {
             text-decoration: none;
@@ -62,17 +62,47 @@
     </div>
     <!-- ---------------------------------内容部分------------------------ -->
     <div id="count">
-        <div class="sousuo" id="templay">
-            <h3 class="h3">搜索结果</h3>
-            <ul class="bottom" style="border: none;">
-                <li class="li" style="border-top: none;border-left: none;border-right: none;">
-                    <a href="xiangqing.html">
-                        <img src="" alt="" class="pic">
-                    </a>
-                    <p class="name" style="text-align: center;font-size: 20px;margin-top: 10px;width: 260px;"></p>
-                </li>
-            </ul>
+        <div class="my">
+            <div class="left">
+                <img src="" alt="" class="pic">
+            </div>
+            <div class="right">
+                <h2>欢迎购买金立S11</h2>
+                <div class="kuang">
+                    <p>金立S11</p>
+                </div>
+                <h3>颜色选择</h3>
+                <ul class="color">
+                    <li><i class="i1"> </i>
+                        <p class="p">太空金</p>
+                    </li>
+                    <li>
+                        <i class="i2"> </i>
+                        <p class="p">月光蓝</p>
+                    </li>
+                    <li>
+                        <i class="i3"></i>
+                        <p class="p">樱花粉</p>
+                    </li>
+                </ul>
+                <h3>版本选择</h3>
+                <div class="kuang">
+                    <p class="pp">全网通 4G内存+64G容量</p>
+                </div>
+                <div class="number">
+                    <p class="pa"> 数量：</p>
+                    <button id="jian">-</button>
+                    <span class="count">1</span>
+                    <button id="add">+</button>
+                    <p class="gou">总价：</p>
+                    <p class="pirce"></p>
+                </div>
+                <div class="ms">
+                    <a href="gou.html"> 立即购买</a>
+                </div>
+            </div>
         </div>
+
     </div>
     <!-- -----------------------------侧边栏-------------------------- -->
     <aside>
@@ -181,24 +211,57 @@
 <script>
 
 $.ajax({
-    url:`http://192.168.101.8:8081/selet`,
+    url:`http://192.168.101.8:8081/shopping`,
+    type:`get`,
     success:function(data){
         let list=data[0];
-        console.log(list)
-        console.log(list.pic)
-            $('.li').attr('id',list.id);
-            $('.li').find('.name').html(list.phonename);
-            $('.li').find('.pic').attr('src',list.pic);
+        // console.log(list)
+        // console.log(list.pic)
+            $('.left').attr('id',list.id);
+            // $(`.left`).css(`diaplay`,`block`)
+            $('.left').find('.pic').attr('src',list.pic);
+            $('.left').find('.pic').css(`diaplay`,`block`);
+            $(`.number`).find(`.pirce`).html(list.price);
 
 
-					// newli.click(function(){
-					// 	let id = item.id;
-					// 	$.ajax({
-					// 		url:`http://10.35.161.5:8081/sousuo?id=${id}`,
-					// 		success:function(data){
-					// 			}
-					// 	})
-					// })
+
+            let count=$(`.count`);
+//  console.log(count);
+//   console.log( count.html())
+  let price=$(`.pirce`);
+ console.log(price.html());
+ let money=0;
+
+
+
+     // 加号
+$(`#add`).click(function(){
+    let counts=parseInt(count.html())+1;
+    count.html(counts);
+let jiage=parseInt(1899*count.html());
+// alert(jiage);
+price.html(jiage)
+
+
+})
+
+// // // 减号
+$(`#jian`).click(function(){
+    if(!parseInt(count.html())){
+        return;
     }
+    let counts=parseInt(count.html())-1;
+    count.html(counts)
+    let jiage=parseInt(1899*count.html());
+// alert(jiage);
+price.html(jiage)
+
+})
+
+
+
+    }
+
+
 })
 </script>
