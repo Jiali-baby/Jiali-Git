@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    width: 26.667vw;
+    background-color: #F0F0F0;
+}
+
+body {
+    font-size: 16px;
+}
+
+
+/* ................header.............. */
+
+.header {
+    width: 100vw;
+    height: 120px;
+    background-color: #FF5593;
+    position: fixed;
+    top: 0;
+}
+
+.header .star {
+    border-bottom: 4px solid #fff;
+}
+
+.header ul {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.header li {
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    /* border: 1px solid black; */
+}
+
+.header .ipt {
+    width: 90vw;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 80px 20px;
+}
+
+.header .ipt input {
+    width: 130px;
+    margin-top: -5px;
+    outline: medium;
+    border: none;
+    /* margin-left: 30px; */
+    /* background-color: brown; */
+}
+
+.header .ipt p {
+    /* width: 30px; */
+    display: inline-block;
+    font-size: 23px;
+    margin-left: 60px;
+}
+
+
+/*.................. center............... */
+
+.center {
+    margin-top: 120px;
+    flex: 1;
+    margin-bottom: 62px;
+}
+
+
+/* ..........footer.................... */
+
+.footer {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 60px;
+}
+
+.footer ul {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer ul li {
+    /* float: left; */
+    width: 40px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 0 8px;
+}
+
+.footer ul .iconfont {
+    font-size: 23px;
+}
+
+.footer ul .icon-shouye {
+    color: #FF5593;
+}
+
+.footer ul li p {
+    font-size: 17px;
+}

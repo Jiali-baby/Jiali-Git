@@ -56,24 +56,226 @@ body {
     flex: 1;
 }
 
+.icon-youjiantou {
+    color: #d1d1d1;
+}
+
+
+/* ........... */
+
 .center .shang {
     width: 100vw;
-    height: 150px;
+    height: 90px;
     background-color: #fff;
 }
 
-.center .shang ul {
+.center .shang .ul {
     width: 100vw;
     height: 90px;
     border-bottom: 1px solid #e1e1e1;
 }
 
-.center .shang li {
+.center .shang .ul li {
     float: left;
 }
 
-.center .shang li img {
+.center .shang .ul li img {
     width: 90px;
+}
+
+.center .shang .ul .lii {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.center .shang .ul .idd {
+    margin-top: 60px;
+    margin-left: -50px;
+}
+
+.center .xia {
+    width: 100vw;
+    height: 60px;
+    background-color: #fff;
+}
+
+
+/* ........................ */
+
+.xia .two {
+    /* background-color: cadetblue; */
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* display: inline-block; */
+}
+
+.xia .two li {
+    /* float: left; */
+    display: inline-block;
+    /* border: 1px solid black; */
+    line-height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.xia .two .iconfont {
+    font-size: 23px;
+}
+
+.xia .two p {
+    font-size: 16px;
+    display: inline-block;
+}
+
+.xia .two .right {
+    /* float: right; */
+    margin-right: 20px;
+}
+
+.xia .two .icon-wangguan {
+    margin-left: 6px;
+    float: left;
+    color: #F2BF59;
+}
+
+.xia .two .icon-youjiantou {
+    float: right;
+    margin-right: 10px;
+}
+
+
+/*  */
+
+.zhui {
+    width: 100vw;
+    height: 60px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.zhui li {
+    float: left;
+    margin-left: 10px;
+    line-height: 60px;
+}
+
+.zhui .icon-youjiantou {
+    float: right;
+    margin-right: 10px;
+}
+
+.zhui .iconfont {
+    font-size: 25px;
+}
+
+.zhui p {
+    font-size: 16px;
+    display: inline-block;
+    color: black;
+}
+
+.zhui .icon-dianshizhiboguankanshipinbofangmeiti {
+    color: #FE9B74;
+}
+
+
+/* 。。。。。。。。。。。。。。。。。。。。 */
+
+.li {
+    width: 100vw;
+    height: 60px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.li li {
+    float: left;
+    margin-left: 10px;
+    line-height: 60px;
+}
+
+.li .icon-youjiantou {
+    float: right;
+    margin-right: 10px;
+}
+
+.li .iconfont {
+    font-size: 25px;
+}
+
+.li p {
+    font-size: 16px;
+    display: inline-block;
+    color: black
+}
+
+.li .icon-xiazai {
+    color: #FF8CD1;
+}
+
+
+/* ..........任务........... */
+
+.da {
+    width: 100vw;
+    height: 120px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.da li {
+    float: left;
+    width: 90px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.da p {
+    color: black;
+}
+
+.da .iconfont {
+    font-size: 25px;
+}
+
+.da p {
+    font-size: 16px;
+}
+
+.da .icon-lishijilu {
+    color: #FF8CD1;
+}
+
+.da .icon-icon-test {
+    color: #FF8CD1;
+}
+
+.da .icon-wodeshoucang {
+    color: #eace7a;
+}
+
+.da .icon-wodexiaoxi {
+    color: #06c1ae;
+}
+
+.da .icon-fengzheng {
+    color: #6fb6f6;
+}
+
+.da .icon-wenjian {
+    color: #6fb6f6;
+}
+
+.da .icon-datiqia {
+    color: #eace7a;
+}
+
+.da .icon-youxi {
+    color: #f46167;
 }
 
 
