@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    width: 26.667vw;
+    background-color: #F0F0F0;
+}
+
+body {
+    font-size: 16px;
+}
+
+
+/* ...........header........ */
+
+.header {
+    width: 100vw;
+    height: 70px;
+    background-color: #FF5593;
+    position: fixed;
+    top: 0;
+}
+
+.header ul {
+    float: right;
+    margin-top: 40px;
+}
+
+.header ul li {
+    float: left;
+    width: 30px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 26px;
+    color: #fff;
+}
+
+
+/* .............center........ */
+
+.center {
+    margin-top: 70px;
+    margin-bottom: 62px;
+    flex: 1;
+}
+
+.center .shang {
+    width: 100vw;
+    height: 150px;
+    background-color: #fff;
+}
+
+.center .shang ul {
+    width: 100vw;
+    height: 90px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.center .shang li {
+    float: left;
+}
+
+.center .shang li img {
+    width: 90px;
+}
+
+
+/* ......footer........... */
+
+.footer {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 60px;
+}
+
+.footer ul {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer ul li {
+    /* float: left; */
+    width: 40px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 0 8px;
+}
+
+.footer ul .iconfont {
+    font-size: 23px;
+}
+
+.footer ul .icon-wodegerenzhongxin {
+    color: #FF5593;
+}
+
+.footer ul li p {
+    font-size: 17px;
+}
