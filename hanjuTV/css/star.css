@@ -28,6 +28,7 @@ body {
     height: 120px;
     background-color: #FF5593;
     position: fixed;
+    z-index: 999;
     top: 0;
 }
 
@@ -82,6 +83,10 @@ body {
     margin-bottom: 62px;
 }
 
+.center .picture {
+    height: 130px;
+}
+
 .center .picture img {
     width: 100vw;
     border-radius: 5px;
@@ -92,28 +97,29 @@ body {
 
 .center .ming {
     height: 100px;
-    /* overflow: hidden; */
-    margin-top: 10px;
+    width: 100vw;
+    margin-top: 30px;
+    /* background-color: aqua; */
 }
 
-.ming ul {
-    height: 100%;
+.center .ming ul {
+    height: 100px;
     display: flex;
     align-items: center;
 }
 
-.center li {
+.center .ming ul li {
     float: left;
     margin-left: 20px;
     flex-shrink: 0;
     position: relative;
 }
 
-.ming p {
+.center .ming p {
     text-align: center;
 }
 
-.center li img {
+.center .ming li img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -124,6 +130,7 @@ body {
 
 .mxdt {
     width: 100vw;
+    height: 1200px;
     margin-top: 20px;
 }
 
@@ -136,6 +143,19 @@ body {
 
 .mxdt .iconfont {
     color: orange;
+}
+
+.mxdt li {
+    width: 150px;
+    height: 270px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 25px;
+}
+
+.mxdt li img {
+    height: 200px;
+    width: 150px;
 }
 
 

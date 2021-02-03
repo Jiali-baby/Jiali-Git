@@ -13,7 +13,7 @@ li {
 
 html {
     width: 26.667vw;
-    background-color: #F0F0F0;
+    background-color: #fff;
 }
 
 body {
@@ -80,6 +80,141 @@ body {
     margin-top: 120px;
     flex: 1;
     margin-bottom: 62px;
+}
+
+
+/* <!-- .............shang..........  */
+
+.center .shang {
+    width: 100vw;
+    height: 60px;
+    /* background-color: aquamarine; */
+    margin-top: 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.center .shang li {
+    float: left;
+    /* line-height: 60px; */
+    width: 70px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.shang .iconfont {
+    font-size: 23px;
+}
+
+.shang p {
+    font-size: 16px;
+    color: black;
+}
+
+.shang .icon-wenjianjia {
+    color: #ff8bd1;
+}
+
+.shang .icon-shipin {
+    color: #4ecdc4;
+}
+
+.shang .icon-shijianbiao {
+    color: #7fa9fd;
+}
+
+.shang .icon-paihangbang {
+    color: #ffbc03;
+}
+
+
+/* ...........shan............. */
+
+.shan {
+    height: 40px;
+    width: 99vw;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+
+.shan li {
+    float: left;
+    /* border: 1px solid black; */
+    line-height: 40px;
+}
+
+.shan .lii {
+    float: right;
+    color: #d1d1d1;
+}
+
+.shan .you {
+    margin-left: 210px;
+    color: #d1d1d1;
+}
+
+
+/* ..............hot................... */
+
+.hot {
+    width: 100vw;
+    height: 420px;
+    margin-top: 15px;
+}
+
+.hot li {
+    float: left;
+    width: 120px;
+    height: 210px;
+    margin-left: 3px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.hot li img {
+    width: 120px;
+    height: 170px;
+}
+
+
+/* .................huan..................... */
+
+.huan {
+    width: 70px;
+    height: 30px;
+    /* background-color: burlywood; */
+    text-align: center;
+    margin-left: 160px;
+    margin-top: 15px;
+}
+
+.huan .iconfont {
+    font-size: 17px;
+    color: #ff8bd1;
+}
+
+
+/* ..............zhui................... */
+
+.zhui {
+    width: 100vw;
+    height: 420px;
+    margin-top: 15px;
+}
+
+.zhui li {
+    float: left;
+    width: 120px;
+    height: 210px;
+    margin-left: 3px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.zhui li img {
+    width: 120px;
+    height: 170px;
 }
 
 

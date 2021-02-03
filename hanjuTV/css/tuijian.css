@@ -13,7 +13,7 @@ li {
 
 html {
     width: 26.667vw;
-    background-color: #F0F0F0;
+    background-color: #fff;
 }
 
 body {
@@ -82,8 +82,190 @@ body {
     margin-bottom: 62px;
 }
 
+.center .picture {
+    height: 130px;
+}
 
-/* ..........footer.................... */
+.center .picture img {
+    width: 100vw;
+    border-radius: 5px;
+}
+
+
+/* ...........nav.......... */
+
+.center .nav {
+    width: 100vw;
+    height: 70px;
+    /* background-color: brown; */
+    margin-top: 35px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.nav li {
+    float: left;
+    width: 60px;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav .iconfont {
+    font-size: 23px;
+}
+
+.nav p {
+    font-size: 15px;
+    color: black;
+}
+
+.nav .icon-wenjianjia {
+    color: #ff8cd1;
+}
+
+.nav .icon-shipin {
+    color: #73beff;
+}
+
+.nav .icon-wodeshoucang {
+    color: #92a4fa;
+}
+
+.nav .icon-datiqia {
+    color: #ff87b4;
+}
+
+.nav .icon-icon-test {
+    color: #f66979;
+}
+
+
+/* .............shang.................. */
+
+.shang {
+    height: 40px;
+    width: 99vw;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+
+.shang li {
+    float: left;
+    /* border: 1px solid black; */
+    line-height: 40px;
+}
+
+.shang .lii {
+    float: right;
+    color: #d1d1d1;
+}
+
+.shang .you {
+    margin-left: 210px;
+    color: #d1d1d1;
+}
+
+
+/* ..............hot................... */
+
+.hot {
+    width: 100vw;
+    height: 400px;
+    margin-top: 15px;
+}
+
+.hot li {
+    float: left;
+    width: 120px;
+    height: 210px;
+    margin-left: 3px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.hot li img {
+    width: 120px;
+    height: 170px;
+}
+
+.zb {
+    margin-left: 10px;
+}
+
+
+/* ..................zblist................... */
+
+.zblist {
+    width: 100vw;
+    height: 210px;
+    margin-top: 15px;
+    /* background-color: burlywood; */
+}
+
+.zblist li {
+    float: left;
+    width: 180px;
+    height: 200px;
+    margin-left: 5px;
+}
+
+.zblist li img {
+    width: 180px;
+    height: 200px;
+}
+
+
+/* ..................zhgx.................... */
+
+.zhgx {
+    height: 40px;
+    width: 99vw;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+
+.zhgx li {
+    float: left;
+    /* border: 1px solid black; */
+    line-height: 40px;
+}
+
+.zhgx .lii {
+    float: right;
+    color: #d1d1d1;
+}
+
+.zhgx .you {
+    margin-left: 210px;
+    color: #d1d1d1;
+}
+
+
+/* ........................list.................. */
+
+.list {
+    width: 100vw;
+    height: 420px;
+    margin-top: 15px;
+}
+
+.list li {
+    float: left;
+    width: 120px;
+    height: 210px;
+    margin-left: 3px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.list li img {
+    width: 120px;
+    height: 170px;
+}
+
+
+/* ...................footer.................... */
 
 .footer {
     background-color: #fff;
