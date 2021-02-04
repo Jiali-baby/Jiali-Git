@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    font-size: 16px;
+    font-size: 0.16rem;
 }
 
 
@@ -25,7 +25,7 @@ body {
 
 .header {
     width: 100vw;
-    height: 120px;
+    height: 1.2rem;
     background-color: #FF5593;
     position: fixed;
     z-index: 999;
@@ -33,84 +33,84 @@ body {
 }
 
 .header .star {
-    border-bottom: 4px solid #fff;
+    border-bottom: 0.04rem solid #fff;
 }
 
 .header ul {
-    margin-top: 30px;
-    margin-left: 90px;
+    margin-top: 0.3rem;
+    margin-left: 0.9rem;
 }
 
 .header li {
     float: left;
-    margin-left: 20px;
+    margin-left: 0.2rem;
     color: #fff;
     text-align: center;
-    font-size: 20px;
-    /* border: 1px solid black; */
+    font-size: 0.2rem;
+    /* border: 0.01rem solid black; */
 }
 
 .header .ipt {
     width: 90vw;
-    height: 30px;
+    height: 0.3rem;
     background-color: #fff;
-    border-radius: 7px;
-    margin: 80px 20px;
+    border-radius: 0.07rem;
+    margin: 0.8rem 0.2rem;
 }
 
 .header .ipt input {
-    width: 130px;
-    margin-top: -5px;
+    width: 1.3rem;
+    margin-top: -0.05rem;
     outline: medium;
     border: none;
-    /* margin-left: 30px; */
+    /* margin-left: 0.3rem; */
     /* background-color: brown; */
 }
 
 .header .ipt p {
-    /* width: 30px; */
+    /* width: 0.3rem; */
     display: inline-block;
-    font-size: 23px;
-    margin-left: 60px;
+    font-size: 0.23rem;
+    margin-left: 0.6rem;
 }
 
 
 /*.................. center............... */
 
 .center {
-    margin-top: 120px;
+    margin-top: 1.2rem;
     flex: 1;
-    margin-bottom: 62px;
+    margin-bottom: 0.62rem;
 }
 
 .center .picture {
-    height: 130px;
+    height: 1.3rem;
 }
 
 .center .picture img {
     width: 100vw;
-    border-radius: 5px;
+    border-radius: 0.05rem;
 }
 
 
 /* ..............明星列表......... */
 
 .center .ming {
-    height: 100px;
+    height: 1rem;
     width: 100vw;
-    margin-top: 30px;
+    margin-top: 0.3rem;
     /* background-color: aqua; */
 }
 
 .center .ming ul {
-    height: 100px;
+    height: 1rem;
     display: flex;
     align-items: center;
 }
 
 .center .ming ul li {
     float: left;
-    margin-left: 20px;
+    margin-left: 0.2rem;
     flex-shrink: 0;
     position: relative;
 }
@@ -120,8 +120,8 @@ body {
 }
 
 .center .ming li img {
-    width: 50px;
-    height: 50px;
+    width: 0.5rem;
+    height: 0.5rem;
     border-radius: 50%;
 }
 
@@ -130,14 +130,14 @@ body {
 
 .mxdt {
     width: 100vw;
-    height: 1200px;
-    margin-top: 20px;
+    height: 12rem;
+    margin-top: 0.2rem;
 }
 
 .mxdt h2 {
-    margin-left: 15px;
+    margin-left: 0.15rem;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 0.16rem;
     color: black;
 }
 
@@ -146,16 +146,16 @@ body {
 }
 
 .mxdt li {
-    width: 150px;
-    height: 270px;
-    margin-top: 10px;
+    width: 1.5rem;
+    height: 2.7rem;
+    margin-top: 0.1rem;
     float: left;
-    margin-left: 25px;
+    margin-left: 0.25rem;
 }
 
 .mxdt li img {
-    height: 200px;
-    width: 150px;
+    height: 2rem;
+    width: 1.5rem;
 }
 
 
@@ -166,11 +166,11 @@ body {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    height: 60px;
+    height: 0.6rem;
 }
 
 .footer ul {
-    height: 60px;
+    height: 0.6rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -178,14 +178,14 @@ body {
 
 .footer ul li {
     /* float: left; */
-    width: 40px;
-    /* border: 1px solid black; */
+    width: 0.4rem;
+    /* border: 0.01rem solid black; */
     text-align: center;
-    padding: 0 8px;
+    padding: 0 0.08rem;
 }
 
 .footer ul .iconfont {
-    font-size: 23px;
+    font-size: 0.23rem;
 }
 
 .footer ul .icon-shouye {
@@ -193,5 +193,5 @@ body {
 }
 
 .footer ul li p {
-    font-size: 17px;
+    font-size: 0.17rem;
 }

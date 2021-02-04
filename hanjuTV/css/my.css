@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    font-size: 16px;
+    font-size: 0.16rem;
 }
 
 
@@ -25,7 +25,7 @@ body {
 
 .header {
     width: 100vw;
-    height: 70px;
+    height: 0.7rem;
     background-color: #FF5593;
     position: fixed;
     top: 0;
@@ -33,17 +33,17 @@ body {
 
 .header ul {
     float: right;
-    margin-top: 40px;
+    margin-top: 0.4rem;
 }
 
 .header ul li {
     float: left;
-    width: 30px;
-    /* border: 1px solid black; */
+    width: 0.3rem;
+    /* border: 0.01rem solid black; */
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 26px;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    font-size: 0.26rem;
     color: #fff;
 }
 
@@ -51,8 +51,8 @@ body {
 /* .............center........ */
 
 .center {
-    margin-top: 70px;
-    margin-bottom: 62px;
+    margin-top: 0.7rem;
+    margin-bottom: 0.62rem;
     flex: 1;
 }
 
@@ -65,14 +65,14 @@ body {
 
 .center .shang {
     width: 100vw;
-    height: 90px;
+    height: 0.9rem;
     background-color: #fff;
 }
 
 .center .shang .ul {
     width: 100vw;
-    height: 90px;
-    border-bottom: 1px solid #e1e1e1;
+    height: 0.9rem;
+    border-bottom: 0.01rem solid #e1e1e1;
 }
 
 .center .shang .ul li {
@@ -80,22 +80,22 @@ body {
 }
 
 .center .shang .ul li img {
-    width: 90px;
+    width: 0.9rem;
 }
 
 .center .shang .ul .lii {
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
 }
 
 .center .shang .ul .idd {
-    margin-top: 60px;
-    margin-left: -50px;
+    margin-top: 0.6rem;
+    margin-left: -0.5rem;
 }
 
 .center .xia {
     width: 100vw;
-    height: 60px;
+    height: 0.6rem;
     background-color: #fff;
 }
 
@@ -104,47 +104,47 @@ body {
 
 .xia .two {
     /* background-color: cadetblue; */
-    height: 60px;
+    height: 0.6rem;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 0.1rem;
     /* display: inline-block; */
 }
 
 .xia .two li {
     /* float: left; */
     display: inline-block;
-    /* border: 1px solid black; */
-    line-height: 40px;
-    margin-left: 10px;
-    margin-top: 10px;
+    /* border: 0.01rem solid black; */
+    line-height: 0.4rem;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
     /* display: flex;
     justify-content: space-around; */
 }
 
 .xia .two .iconfont {
-    font-size: 23px;
+    font-size: 0.23rem;
 }
 
 .xia .two p {
-    font-size: 16px;
+    font-size: 0.16rem;
     display: inline-block;
 }
 
 .xia .two .right {
     /* float: right; */
-    margin-right: 20px;
+    margin-right: 0.2rem;
 }
 
 .xia .two .icon-wangguan {
-    margin-left: 6px;
+    margin-left: 0.06rem;
     float: left;
     color: #F2BF59;
 }
 
 .xia .two .icon-youjiantou {
     float: right;
-    margin-right: 10px;
+    margin-right: 0.1rem;
 }
 
 
@@ -152,28 +152,28 @@ body {
 
 .zhui {
     width: 100vw;
-    height: 60px;
-    margin-top: 10px;
+    height: 0.6rem;
+    margin-top: 0.1rem;
     background-color: #fff;
 }
 
 .zhui li {
     float: left;
-    margin-left: 10px;
-    line-height: 60px;
+    margin-left: 0.1rem;
+    line-height: 0.6rem;
 }
 
 .zhui .icon-youjiantou {
     float: right;
-    margin-right: 10px;
+    margin-right: 0.1rem;
 }
 
 .zhui .iconfont {
-    font-size: 25px;
+    font-size: 0.25rem;
 }
 
 .zhui p {
-    font-size: 16px;
+    font-size: 0.16rem;
     display: inline-block;
     color: black;
 }
@@ -187,28 +187,28 @@ body {
 
 .li {
     width: 100vw;
-    height: 60px;
-    margin-top: 10px;
+    height: 0.6rem;
+    margin-top: 0.1rem;
     background-color: #fff;
 }
 
 .li li {
     float: left;
-    margin-left: 10px;
-    line-height: 60px;
+    margin-left: 0.1rem;
+    line-height: 0.6rem;
 }
 
 .li .icon-youjiantou {
     float: right;
-    margin-right: 10px;
+    margin-right: 0.1rem;
 }
 
 .li .iconfont {
-    font-size: 25px;
+    font-size: 0.25rem;
 }
 
 .li p {
-    font-size: 16px;
+    font-size: 0.16rem;
     display: inline-block;
     color: black
 }
@@ -222,15 +222,15 @@ body {
 
 .da {
     width: 100vw;
-    height: 120px;
+    height: 1.2rem;
     background-color: #fff;
-    margin-top: 10px;
+    margin-top: 0.1rem;
 }
 
 .da li {
     float: left;
-    width: 90px;
-    margin-top: 10px;
+    width: 0.9rem;
+    margin-top: 0.1rem;
     text-align: center;
 }
 
@@ -239,11 +239,11 @@ body {
 }
 
 .da .iconfont {
-    font-size: 25px;
+    font-size: 0.25rem;
 }
 
 .da p {
-    font-size: 16px;
+    font-size: 0.16rem;
 }
 
 .da .icon-lishijilu {
@@ -286,11 +286,11 @@ body {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    height: 60px;
+    height: 0.6rem;
 }
 
 .footer ul {
-    height: 60px;
+    height: 0.6rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -298,14 +298,14 @@ body {
 
 .footer ul li {
     /* float: left; */
-    width: 40px;
-    /* border: 1px solid black; */
+    width: 0.4rem;
+    /* border: 0.01rem solid black; */
     text-align: center;
-    padding: 0 8px;
+    padding: 0 0.08rem;
 }
 
 .footer ul .iconfont {
-    font-size: 23px;
+    font-size: 0.23rem;
 }
 
 .footer ul .icon-wodegerenzhongxin {
@@ -313,5 +313,5 @@ body {
 }
 
 .footer ul li p {
-    font-size: 17px;
+    font-size: 0.17rem;
 }

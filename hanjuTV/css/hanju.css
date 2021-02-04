@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    font-size: 16px;
+    font-size: 0.16rem;
 }
 
 
@@ -25,61 +25,61 @@ body {
 
 .header {
     width: 100vw;
-    height: 120px;
+    height: 1.2rem;
     background-color: #FF5593;
     position: fixed;
     top: 0;
 }
 
 .header .star {
-    border-bottom: 4px solid #fff;
+    border-bottom: 0.04rem solid #fff;
 }
 
 .header ul {
-    margin-top: 30px;
-    margin-left: 90px;
+    margin-top: 0.3rem;
+    margin-left: 0.9rem;
 }
 
 .header li {
     float: left;
-    margin-left: 20px;
+    margin-left: 0.2rem;
     color: #fff;
     text-align: center;
-    font-size: 20px;
-    /* border: 1px solid black; */
+    font-size: 0.2rem;
+    /* border: 0.01rem solid black; */
 }
 
 .header .ipt {
     width: 90vw;
-    height: 30px;
+    height: 0.3rem;
     background-color: #fff;
-    border-radius: 7px;
-    margin: 80px 20px;
+    border-radius: 0.07rem;
+    margin: 0.8rem 0.2rem;
 }
 
 .header .ipt input {
-    width: 130px;
-    margin-top: -5px;
+    width: 1.3rem;
+    margin-top: -0.05rem;
     outline: medium;
     border: none;
-    /* margin-left: 30px; */
+    /* margin-left: 0.3rem; */
     /* background-color: brown; */
 }
 
 .header .ipt p {
-    /* width: 30px; */
+    /* width: 0.3rem; */
     display: inline-block;
-    font-size: 23px;
-    margin-left: 60px;
+    font-size: 0.23rem;
+    margin-left: 0.6rem;
 }
 
 
 /*.................. center............... */
 
 .center {
-    margin-top: 120px;
+    margin-top: 1.2rem;
     flex: 1;
-    margin-bottom: 62px;
+    margin-bottom: 0.62rem;
 }
 
 
@@ -87,28 +87,28 @@ body {
 
 .center .shang {
     width: 100vw;
-    height: 60px;
+    height: 0.6rem;
     /* background-color: aquamarine; */
-    margin-top: 10px;
-    border-bottom: 1px solid #e1e1e1;
+    margin-top: 0.1rem;
+    border-bottom: 0.01rem solid #e1e1e1;
 }
 
 .center .shang li {
     float: left;
-    /* line-height: 60px; */
-    width: 70px;
-    /* border: 1px solid black; */
+    /* line-height: 0.6rem; */
+    width: 0.7rem;
+    /* border: 0.01rem solid black; */
     text-align: center;
-    margin-left: 15px;
-    margin-top: 5px;
+    margin-left: 0.15rem;
+    margin-top: 0.05rem;
 }
 
 .shang .iconfont {
-    font-size: 23px;
+    font-size: 0.23rem;
 }
 
 .shang p {
-    font-size: 16px;
+    font-size: 0.16rem;
     color: black;
 }
 
@@ -132,16 +132,16 @@ body {
 /* ...........shan............. */
 
 .shan {
-    height: 40px;
+    height: 0.4rem;
     width: 99vw;
-    /* border: 1px solid black; */
-    margin-top: 10px;
+    /* border: 0.01rem solid black; */
+    margin-top: 0.1rem;
 }
 
 .shan li {
     float: left;
-    /* border: 1px solid black; */
-    line-height: 40px;
+    /* border: 0.01rem solid black; */
+    line-height: 0.4rem;
 }
 
 .shan .lii {
@@ -150,7 +150,7 @@ body {
 }
 
 .shan .you {
-    margin-left: 210px;
+    margin-left: 2.1rem;
     color: #d1d1d1;
 }
 
@@ -159,38 +159,38 @@ body {
 
 .hot {
     width: 100vw;
-    height: 420px;
-    margin-top: 15px;
+    height: 4.2rem;
+    margin-top: 0.15rem;
 }
 
 .hot li {
     float: left;
-    width: 120px;
-    height: 210px;
-    margin-left: 3px;
+    width: 1.2rem;
+    height: 2.1rem;
+    margin-left: 0.03rem;
     text-align: center;
-    /* border: 1px solid black; */
+    /* border: 0.01rem solid black; */
 }
 
 .hot li img {
-    width: 120px;
-    height: 170px;
+    width: 1.2rem;
+    height: 1.7rem;
 }
 
 
 /* .................huan..................... */
 
 .huan {
-    width: 70px;
-    height: 30px;
+    width: 0.7rem;
+    height: 0.3rem;
     /* background-color: burlywood; */
     text-align: center;
-    margin-left: 160px;
-    margin-top: 15px;
+    margin-left: 1.6rem;
+    margin-top: 0.15rem;
 }
 
 .huan .iconfont {
-    font-size: 17px;
+    font-size: 0.17rem;
     color: #ff8bd1;
 }
 
@@ -199,22 +199,22 @@ body {
 
 .zhui {
     width: 100vw;
-    height: 420px;
-    margin-top: 15px;
+    height: 4.2rem;
+    margin-top: 0.15rem;
 }
 
 .zhui li {
     float: left;
-    width: 120px;
-    height: 210px;
-    margin-left: 3px;
+    width: 1.2rem;
+    height: 2.1rem;
+    margin-left: 0.03rem;
     text-align: center;
-    /* border: 1px solid black; */
+    /* border: 0.01rem solid black; */
 }
 
 .zhui li img {
-    width: 120px;
-    height: 170px;
+    width: 1.2rem;
+    height: 1.7rem;
 }
 
 
@@ -225,11 +225,11 @@ body {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    height: 60px;
+    height: 0.6rem;
 }
 
 .footer ul {
-    height: 60px;
+    height: 0.6rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -237,14 +237,14 @@ body {
 
 .footer ul li {
     /* float: left; */
-    width: 40px;
-    /* border: 1px solid black; */
+    width: 0.4rem;
+    /* border: 0.01rem solid black; */
     text-align: center;
-    padding: 0 8px;
+    padding: 0 0.08rem;
 }
 
 .footer ul .iconfont {
-    font-size: 23px;
+    font-size: 0.23rem;
 }
 
 .footer ul .icon-shouye {
@@ -252,5 +252,5 @@ body {
 }
 
 .footer ul li p {
-    font-size: 17px;
+    font-size: 0.17rem;
 }
